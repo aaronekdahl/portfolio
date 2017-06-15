@@ -1,16 +1,16 @@
 /*To Do: Convert px to rem, set colors, remove unnecessary css...too much stuff...*/
 
 #contact-form {
-    background-color: #e3e0cf;
-    width: 660px;
-    padding: 20px;
+    background-color: #808080;
+    width: 475px;
+    padding: 40px;
     margin: 50px auto;
     position: relative;
     box-shadow: 3px 2px 12px rgba(0, 0, 0, 0.4);
 }
  
 #contact-form h1 {
-    font-size:42px;
+    font-size: 42px;
 }
  
 #contact-form input, 
@@ -19,11 +19,6 @@
 #contact-form label {
     font-size:15px;
     margin-bottom:2px;
-}
- 
-#contact-form textarea {
-    height:150px;
-    resize: none;
 }
  
 #contact-form label {
@@ -37,18 +32,12 @@
  
 #contact-form #submit-button {
     width: 100px;
-    background-color: TBD;
-    color: TBD;
     border: none;
     display: block;
     float:left;
-    margin-bottom: 6px;
+    margin-bottom: 24px;
     margin-right: 6px;
-    background-color: TBD;
-}
- 
-#contact-form #submit-button:hover {
-    background-color: TBD;
+    color: white;
 }
  
 #contact-form #submit-button:active {
